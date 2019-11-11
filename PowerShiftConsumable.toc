@@ -3,6 +3,6 @@
 ## Author: Mobia
 ## Version: 0.1
 ## Notes: Wraps selected buttons with cancelform/cancelaura preamble and reshifts into previous form.
-## SavedVariables: 
+## SavedVariablesPerCharacter: PowerShiftConsumableBarsToModify
 
 PowerShiftConsumable.lua

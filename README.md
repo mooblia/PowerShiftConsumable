@@ -62,7 +62,7 @@ Clicking with the mouse on buttons does not call these macros, we only override 
 
 - **/pow status** to list what keys of what bars are being overwritten.
 - **/pow enable/disable barname** to set/remove override bindings for all buttons of given bar.
-- **/pow enable/disable barname N** to set/remove override bindings for the N-th key of that bar. 
+- **/pow enable/disable barname N_1 N_2 ...** to set/remove override bindings for the N_1 key, N_2 key etc.
 - **barname** can be one of 
     - MultiBarBottomLeft
     - MultiBarBottomRight
@@ -76,6 +76,5 @@ Say you wanted to modify the first 10 keys of the secondary right action bar. Yo
 
 ```
 /pow enable MultiBarLeft
-/pow disable MultiBarLeft 11
-/pow disable MultiBarLeft 12
+/pow disable MultiBarLeft 11 12
 ```
