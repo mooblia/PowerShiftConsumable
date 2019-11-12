@@ -81,10 +81,10 @@ while ref do
     local macro_hdr = "";
     local macro_ftr = "";
     if newstate == "bear" then
-        macro_hdr = "/cancelaura Leader of the Pack\n/cancelform\n";
+        macro_hdr = "/cancelaura Predatory Strikes\n/cancelaura Leader of the Pack\n/cancelform\n";
         macro_ftr = "/cast Dire Bear Form"
     elseif newstate == "cat" then
-        macro_hdr = "/cancelaura Leader of the Pack\n/cancelform\n";
+        macro_hdr = "/cancelaura Predatory Strikes\n/cancelaura Leader of the Pack\n/cancelform\n";
         macro_ftr = "/cast Cat Form"
     elseif newstate == "travel" then
         macro_hdr = "/cancelform\n";
