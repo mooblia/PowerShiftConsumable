@@ -155,8 +155,10 @@ local function SlashCommands(msg)
     cmd = strlower(cmd);
     if cmd == "enable" then
         msg = PowerShiftConsumable:SlashState(true,rest);
+        PowerShiftConsumable:OnUpdateBindings()
     elseif cmd == "disable" then
         msg = PowerShiftConsumable:SlashState(false,rest);
+        PowerShiftConsumable:OnUpdateBindings()
     elseif cmd == "status" then
         msg = PowerShiftConsumable:SlashStatus()
     else
