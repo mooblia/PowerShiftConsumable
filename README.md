@@ -7,8 +7,6 @@ A WoW Classic AddOn to assist with druids consuming quickly in forms, and shifti
 Powershifting consumables in classic is trivial, as we can make macros like so.
 
 ```
-/cancelaura Predatory Strikes
-/cancelaura Leader of the Pack
 /cancelform
 /use Major Healing Potion
 /cast Dire Bear Form
@@ -26,16 +24,12 @@ This button is bound to `SHIFT-1` overriding the set keybind.
 
 1. If in bear form
     ```
-    /cancelaura Predatory Strikes
-    /cancelaura Leader of the Pack
     /cancelform
     /click MultiBarBottomLeftButton1
     /cast Dire Bear Form
     ```
 2. If in cat form
     ```
-    /cancelaura Predatory Strikes
-    /cancelaura Leader of the Pack
     /cancelform
     /click MultiBarBottomLeftButton1
     /cast Cat Form
