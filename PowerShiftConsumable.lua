@@ -78,7 +78,7 @@ function PowerShiftConsumable:OnAddonLoaded(name)
 local i=1;
 local ref = self:GetFrameRef("btn"..i);
 while ref do
-    local macro_hdr = "/cancelform\n";
+    local macro_hdr = "/cancelform [form:1/2/3/4]\n";
     local macro_ftr = "";
     if newstate == "bear" then
         macro_ftr = "/cast Dire Bear Form"
