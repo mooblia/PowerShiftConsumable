@@ -1,7 +1,7 @@
-## Interface: 11305
+## Interface: 11306
 ## Title: PowerShiftConsumable
 ## Author: Mobia
-## Version: 0.3.0
+## Version: 0.4.0
 ## Notes: Wraps selected buttons with cancelform/cancelaura preamble and reshifts into previous form.
 ## SavedVariablesPerCharacter: PowerShiftConsumableBarsToModify
 
